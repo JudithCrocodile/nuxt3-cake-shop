@@ -1,0 +1,1 @@
+import{H as e,r as s}from"./entry.c8ed32d1.js";const p=e("shoppingCart",()=>{const t=s([]);return{shoppingCartList:t,getCartList:()=>t.value,addCart:r=>{console.log(r),t.value.push(r)}}},{persist:{enabled:!0,strategies:[{key:"shoppingCart",storage:localStorage}]}});export{p as u};

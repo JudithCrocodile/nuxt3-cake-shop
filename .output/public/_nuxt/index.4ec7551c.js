@@ -1,0 +1,1 @@
+import{a as o,B as s,b as t,o as _}from"./entry.c8ed32d1.js";const c={setup(){s().push("/home")}},n={class:"p-4"};function r(e,a,d,p,u,i){return _(),t("div",n,"home")}const f=o(c,[["render",r],["__scopeId","data-v-780939d9"]]);export{f as default};

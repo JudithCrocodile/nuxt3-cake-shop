@@ -1,0 +1,27 @@
+{
+  "name": "nuxt3-tailwindcss",
+  "version": "1.0.0",
+  "description": "Basic starter of Nuxt 3 + TailwindCSS.",
+  "author": "Atinux",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "6.4.0",
+    "@pinia/nuxt": "^0.4.11",
+    "jsonwebtoken": "^9.0.0",
+    "nuxt": "3.2.0"
+  },
+  "keywords": [
+    "tailwindcss",
+    "nuxt"
+  ],
+  "devDependencies": {
+    "pinia": "^2.1.3",
+    "pinia-plugin-persistedstate": "^3.1.0"
+  }
+}
