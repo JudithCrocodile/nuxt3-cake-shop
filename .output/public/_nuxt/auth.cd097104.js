@@ -1,1 +1,0 @@
-import{K as o,L as i,M as s}from"./entry.c8ed32d1.js";import{u as m}from"./fetch.7895281b.js";const f=o(async(t,n)=>{let e,a;const{data:u}=([e,a]=i(()=>m("/api/checkAuthApi","$CYp3kUY8uE")),e=await e,a(),e),r=u.value.result;if(!r&&t.path==="/member")return s("/");if(r&&t.path==="/login")return s("/member")});export{f as default};

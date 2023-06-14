@@ -8,7 +8,8 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "6.4.0",
